@@ -18,7 +18,7 @@ jobs:
         with:
           userid: 1279586                        # your user id, see setup on how to obtain
           session: ${{ secrets.AOC_SESSION }}    # secret containing session code, see setup on how to obtain
-          leaderboard: 'https://adventofcode.com/2023/leaderboard/private/view/1279586.json'               # The url of the leaderboard from witch the data is fetched. Typically your private leaderboard.
+          leaderboard: 'https://adventofcode.com/2024/leaderboard/private/view/1279586.json'               # The url of the leaderboard from witch the data is fetched. Typically your private leaderboard.
       - uses: stefanzweifel/git-auto-commit-action@v4     # Step that pushes these local changes back to your github repo
         with:
           commit_message: Update badges
